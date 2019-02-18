@@ -19,6 +19,7 @@ class Netpbm < Formula
   depends_on "jpeg"
   depends_on "libpng"
   depends_on "libtiff"
+  depends_on "libxml2"
   unless OS.mac?
     depends_on "flex"
     depends_on "zlib"
